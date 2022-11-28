@@ -58,7 +58,7 @@
 #    (simdi) - (2018/8/1) => gün
 import datetime
 
-tarih = input('aracınız hangi tarihte trafiğe çıktı (2019/8/9): ')
+tarih = input('aracınız hangi tarihte trafiğe çıktı (YYYY/M/D): ')
 tarih = tarih.split('/')
 trafigeCikis = datetime.datetime(int(tarih[0]),int(tarih[1]),int(tarih[2]))
 simdi = datetime.datetime.now()
