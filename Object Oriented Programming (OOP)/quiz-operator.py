@@ -55,11 +55,11 @@ class Quiz:
         else:
             print(f'Question {questionNumber} of {totalQuestion}'.center(100,'*'))
 
-q1 = Question('en iyi programlama dili hangisidir ?', ['C#','python','javascript','java'], 'C#')
-q2 = Question('en popüler programlama dili hangisidir ?', ['python','javascript','C#','java'], 'java')
-q3 = Question('en çok kazandıran programlama dili hangisidir ?', ['C#','javascript','java','python'], 'javascript')
-q4 = Question('en çok sevilen programlama dili hangisidir ?', ['C#','javascript','java','python'], 'python')
-q5 = Question('en kolay programlama dili hangisidir ?', ['C#','javascript','java','python'], 'python')
+q1 = Question('Mark zuckerberg hangi sosyal medya uygulamasının sahibidir ?', ['Facebook','Twitter','Instagram','Discord'], 'Facebook')
+q2 = Question('En çok kullanılan sosyal medya uygulaması ?', ['Facebook','Twitter','Instagram','Discord'], 'Instagram')
+q3 = Question('Dunyanın en zengin adamı kimdir? ?', ['Elon Musk','Bill Gates','Steve Jobs','Jack Ma'], 'Elon Musk')
+q4 = Question('Son çıkan Unreal Engine oyun motorunun sürümü nedir ?', ['2','3','4','5'], '5')
+q5 = Question('Hangisi memeli hayvandır ?', ['Timsah','Piton','Yarasa','Kurbağa'], 'Yarasa')
 
 questions = [q1,q2,q3,q4,q5]
 
